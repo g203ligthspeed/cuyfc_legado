@@ -1,0 +1,56 @@
+<ion-content class="ion-padding">
+  <ion-grid class="container">
+    <ion-row>
+      <ion-col class="header">
+        <ion-icon name="logo-cuyfc"></ion-icon>
+        <ion-toolbar >
+          
+            <ion-button [routerLink]="['/','home']">
+            <b><p style="color:black">CUYFC</p></b>
+            </ion-button>
+          <ion-buttons>
+            <ion-button [routerLink]="['/','pagina2']">
+              <ion-icon name="cart" color="dark"></ion-icon>
+            </ion-button>
+            <ion-button [routerLink]="['/','pagina3']">
+              <ion-icon name="add" color="dark"></ion-icon>
+            </ion-button>
+            <ion-button>
+              <ion-icon name="notifications" color="dark"></ion-icon>
+            </ion-button>
+          </ion-buttons>
+        </ion-toolbar>
+        <ion-card-title >loguin ...</ion-card-title>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+            <ion-searchbar placeholder="Name .."></ion-searchbar>
+            <ion-searchbar placeholder="Date 00/00/00"></ion-searchbar>
+            <ion-searchbar placeholder="Num-cell ..."></ion-searchbar>
+            <ion-searchbar placeholder="Direccion..."></ion-searchbar>
+          
+    </ion-row>
+
+    <ion-row>
+      <ion-col class="image-col">
+        <ion-img src="../../assets/imagenes/d82f31b9984e8ca0b3a0c0a9ecc7280e.png"class="user-image"></ion-img>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col class="button-col">
+        <ion-button expand="full" fill="solid" color="primary">
+          <ion-icon name="send"></ion-icon>
+          <ion-label>enviar</ion-label>
+        </ion-button>
+      </ion-col>
+    </ion-row>
+
+    
+  </ion-grid>
+
+</ion-content>
+<ion-footer style="background-color: #D84545;">
+  <ion-label>llame al: 0969568747</ion-label>
+</ion-footer>

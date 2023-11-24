@@ -1,0 +1,62 @@
+*{
+  padding: 0;
+  margin: 0;
+  --background: #D84545;
+}
+.header{
+  display:flex;
+  justify-content: space-between;
+}
+.body{
+  background: #D84545;
+  display:flex;
+  flex-direction: column;
+}
+#logo{
+  width: 49px; height: 17px; 
+  font-size: 12px; 
+  font-family: Kanit; 
+  font-weight: 400; 
+  word-wrap: break-word;
+}
+
+#imagen{
+  width: 200px;
+height: 161px;
+flex-shrink: 0;
+}
+#product-card{
+  display: flex;
+width: 121px;
+height: 28px;
+padding: 6px 36px 5px 36px;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+}
+#texto{
+  color: #F0E0E0;
+  font-family: Jua;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+ion-item{
+  display: flex;
+  flex-direction: column;
+  height: 10rem;
+  ion-img{
+    height: auto;
+    width: auto;
+    padding: 1rem 1rem 0 1rem;
+  }
+  .lbl_price{
+    color: #F0E0E0;
+    font-family: Jura;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
